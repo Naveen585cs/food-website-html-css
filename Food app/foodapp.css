@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+nav{
+    position: sticky;
+    background-color: white;
+    display:contents;
+    top: 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar{
+display: flex;
+padding: 0px 20px;
+}
+.nava{
+    padding:15px 20px ;
+}
+#navh1{
+    flex:6;
+    font-weight: 800;
+    margin-right:20% ;
+    
+}
+nav span{
+    color: rgb(250, 27, 64);
+}
+nav a:hover{
+    background-color: rgb(103, 100, 107);
+}
+nav a{
+    padding: 15px 5px;
+    color: rgb(47, 29, 65);
+
+    flex: 1;
+    text-decoration: none;
+}
+nav a:last-child{
+margin-right: 4%;
+}
+#first{
+background-image: url("./foods/main.jpg");
+width: 100vw;
+height: 100vh;
+background-size: cover;
+display: flex;
+justify-items: center;
+opacity: 0.9;
+justify-content: center;
+align-items: center;
+}
+.firstall{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+.firstall h1{
+    margin: 1rem;
+    font-weight:900;
+    font-size: 40px;
+}
+.firstall p{
+    margin: 1rem;
+}
+.firstall button{
+    background-color: rgb(250, 18, 10);
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.firstall button:hover{
+    transition-duration: 0.2s;
+    transform:scaleX(1.2) ;
+}
+#second{
+    display: flex;
+    margin: 1rem 3rem;
+    margin-bottom: 10em;
+    margin-top: 5rem;
+}                                                                                                    
+#secondh1{
+    font-weight:100;
+}
+#spana{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+#secondimg{
+    margin-left: 20px;
+    flex: 1;
+    border-radius: 2px;
+    width: 20em;
+    height: 20em;    
+}
+#para{
+    text-align: justify;
+    flex: 1;
+}
+#threepara{
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#threeh1 span{
+    color: red;
+    font-weight: bold;
+}
+.timg img{
+    width: 350px;
+    height: 200px;
+}
+#threeh1{
+    font-weight: 200;
+    font-size: 40px;
+}
+.timg{
+    border-radius: 7px;
+box-shadow: 1px 0px 15px rgb(185, 172, 172);
+width: 400px;
+text-align: center;
+}
+#threeimg{
+    margin: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#forthpara{
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+#forthh1{
+    margin-bottom: 0.4em;
+    margin-top: 5em;
+    font-weight: 200;
+    font-size: 40px;
+}
+#forthh1 span{
+    color: red;
+    font-weight: bold;
+}
+.allimg img{
+    width: 300px;
+    height: 300px;
+}
+.allimg{
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:4px 4px 12px rgb(197, 157, 157) ;
+}
+#forthimg{
+    margin: 30px;
+    gap: 2em;
+    margin-bottom: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.allimg:hover{
+    transition-duration:0.7s ;
+    transform: scalex(1.1);
+    }
+    #threeimg .timg:hover{
+        transition-duration:0.7s ;
+        transform: scalex(1.1);
+    }
+ #fifth{
+    background-image: url(./foods/food7.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+ } 
+ #fifthh1{
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 0.4em;
+ }
+ #fifthh1 span{
+    color: red;
+    font-weight: bold;
+ }  
+#fifthpara{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+} 
+#fifthimg img{
+    width: 60px;
+    height: 60px;
+}
+#fifthimg{
+    margin: 50px;
+    margin-bottom: 3em;
+    /* border: solid blue; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.allfimg img{
+    border-radius: 200px;
+}
+.allfimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 2em;
+gap:30px;
+text-align: center;
+background-color: azure;
+overflow: hidden;
+width: 300px;
+height:300px ;
+}
+.allfimg h2{
+    color: red;
+}
+#message{
+    background-image: url(./message/send.jpg);
+    background-size: cover;
+    width: 100vw;
+    /* background-color: bisque; */
+    height: 90vh;
+    padding-bottom: 70px;
+}
+#paramessage{
+    color: rgb(243, 6, 6);
+    padding-top: 40px;
+    text-align: center;
+}
+#paramessage p{
+    margin-top: 10px;
+}
+#paramessage h1{
+    font-weight: 600;
+}
+#paramessage h1 span{
+    color: rgb(18, 233, 29);
+    font-size: 40px;
+    font-weight: 900;
+}
+#sendmessage{
+    border: none;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 22px rgb(98, 116, 122);
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+}
+#sendmessage #sendm{
+    font-size: 24px;
+    font-weight:bold;
+}
+#sendmessage #name{
+    padding: 7px;
+    border: solid black;
+    border-width: 1px;
+    width: 300px;
+}
+#sendmessage #email{
+    padding: 7px;
+    border: solid black;
+    border-width: 1px;
+    width: 300px;
+}
+#sendmessage #message{
+    padding-left: 8px;
+    border: solid black;
+    border-width: 1px;
+    width: 300px;
+    height: 50px;
+    background-image: none;
+}
+#sendmessage button{
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+}
+#sendmessage button:hover{
+    transition-duration: 0.3s;
+    transform: scaleX(1.1);
+    background-color: rgb(185, 50, 50);
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    border-top: solid black 1px;
+}
+footer span{
+    color: red;
+}
+ @media(max-width:600px)
+{
+#second{
+    flex-direction: column;
+    gap: 10px;
+}
+#threeimg{
+display: flex;
+flex-direction: column;
+}
+#threeimg .timg:hover{
+    transition-duration:0.7s ;
+    transform: scalex(1.1);
+}
+#forthimg{
+    flex-direction: column;
+}
+.allimg:hover{
+transition-duration:0.7s ;
+transform: scalex(1.1);
+}
+#fifthimg{
+    flex-direction: column;
+}
+
+#sendmessage{
+    margin-left: 4.5em;
+}
+nav{
+    background-color: rgb(59, 62, 73);
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    color: white;
+}
+nav h1{
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+}
+nav a{
+    color: white;
+}
+.navbar{
+    flex-direction: column;
+    width: 100vw;
+    text-align: left;
+    margin-left: -20px;
+}
+
+} 
